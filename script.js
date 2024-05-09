@@ -22,8 +22,8 @@ xhr.onreadystatechange= function (){
         const mediumlc = data.mediumSolved;
         const totallc =data.solvedProblem ;
         easyfe.innerHTML =easylc;
-        mediumfe.innerHTML= hardlc;
-        hardfe.innerHTML =mediumlc;
+        mediumfe.innerHTML= mediumlc;
+        hardfe.innerHTML =hardlc;
         totalfe.innerHTML=totallc ;
         // console.log("easy " ,easylc);
         // console.log("hard",hardlc);
